@@ -37,7 +37,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             end run
             """
             // `activate` brings all Safari windows to the top.
-            
             // This brings the window to the top within all windows of Safari, but will not bring it further afront above other apps.
             // tell application "System Events" to perform action "AXRaise" of newWindow
             
