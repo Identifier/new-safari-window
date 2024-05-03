@@ -20,6 +20,7 @@
 		674B01A92BE4884D002B44BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		674B01AC2BE4884D002B44BB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		674B01AE2BE4884D002B44BB /* New_Safari_Window.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = New_Safari_Window.entitlements; sourceTree = "<group>"; };
+		674B01B42BE4890D002B44BB /* New-Safari-Window-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "New-Safari-Window-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +53,7 @@
 		674B01A42BE4884C002B44BB /* New Safari Window */ = {
 			isa = PBXGroup;
 			children = (
+				674B01B42BE4890D002B44BB /* New-Safari-Window-Info.plist */,
 				674B01A52BE4884C002B44BB /* New_Safari_WindowApp.swift */,
 				674B01A72BE4884C002B44BB /* ContentView.swift */,
 				674B01A92BE4884D002B44BB /* Assets.xcassets */,
@@ -279,6 +281,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "New-Safari-Window-Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -306,6 +309,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "New-Safari-Window-Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
